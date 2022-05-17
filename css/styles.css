@@ -1,0 +1,13 @@
+         /* body*/
+body{
+    background-color: #2F303A;
+    color: #212121;
+}
+        /* logo */
+.logo{
+    color: #2196F3;
+}
+         /* Сброс элементов с классом list */
+.list{
+    list-style: none;
+}
