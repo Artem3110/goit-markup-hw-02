@@ -1,5 +1,6 @@
 :root {
     --accent-color: #2196F3;
+    --accent-background-color: #2F303A;
 }
 
 body {
@@ -15,6 +16,33 @@ body {
     text-decoration: none;
 }
 
+.title {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.bottom-text {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    
+    color: #757575; 
+}
+
+.btn {
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+}
+
 /*-----------------HEADER---------------*/
 
 .header {
@@ -22,7 +50,6 @@ body {
 }
 .header-logo {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1,19;   
@@ -63,7 +90,7 @@ body {
     color: var(--accent-color);
 }
 
-.header-mail:hover, .eader-mail:focus  {
+.header-mail:hover, .header-mail:focus  {
     color: var(--accent-color);
 }
 
@@ -74,7 +101,7 @@ body {
 /*-----------------HERO---------------*/
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--accent-background-color);
 }
 
 .hero-title {
@@ -99,42 +126,40 @@ body {
         letter-spacing: 0.06em;
     
         color: #FFFFFF;
+        background: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+        cursor: pointer;
 }
+
+.hero-btn:hover, .hero-btn:focus {
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+
 
 /*-----------------PEC---------------*/
 
-.pec-title {
+.pec-text {
         font-weight: 700;
         font-size: 14px;
         line-height: 1,14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        color: var(--contet-title-color);
 }
 
-.pec-text {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+.pec-bottom-text {
         font-size: 14px;
         line-height: 1,71;
-        letter-spacing: 0.03em;
-    
-        color: #757575;
 }
 
 /*-----------------WORK---------------*/
 
-.work-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1,16;
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #212121;
-}
+
 
 /*-----------------TEAM---------------*/
 
@@ -142,7 +167,8 @@ body {
     background-color: #F5F4FA;
 }
 
-.team-name {
+
+.team-text {
         font-weight: 500;
         font-size: 16px;
         line-height: 1,18;
@@ -152,20 +178,17 @@ body {
         color: #212121;
 }
 
-.team-skill {
-        font-weight: 400;
+.team-bottom-text {
         font-size: 16px;
         line-height: 1,18;
         text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #757575;
 }
 
 /*-----------------FOOTER---------------*/
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--accent-background-color);
+    font-style: normal;
 }
 
 .footer-logo {
@@ -175,19 +198,80 @@ body {
         line-height: 1,19;
         letter-spacing: 0.03em;
     
-        color: #2196F3;
+        color: var(--accent-color);
 }
 
 .footer-adress {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
+        font-style: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,71;
         letter-spacing: 0.03em;
     
         color: #FFFFFF;
 }
+
+.footer-mail {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover, .footer-mail:focus {
+    color: var(--accent-color);
+}
+
+.footer-adress:hover, .footer-adress:focus {
+    color: var(--accent-color);
+}
+
+.footer-tel:hover, .footer-tel:focus {
+    color: var(--accent-color);
+}
+/*-----------------PORTFOLIO---------------*/
+
+.portfolio-btn {
+        color: #212121;
+
+        background-color: #F5F4FA;
+        border-radius: 4px;
+}
+
+.portfolio-btn-all {
+        color: #FFFFFF;
+        background-color:#2196F3;
+}
+
+.portfolio-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+}
+
+.portfolio-bottom-text {
+        font-size: 16px;
+        line-height: 1,87;
+}
+
+
+
 
 
 
