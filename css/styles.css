@@ -247,6 +247,11 @@ border-radius: 4px;
 
 .footer-tel:hover, .footer-tel:focus {
     color: var(--accent-color);
+
+}
+
+.footer-logo-accent {
+    color: #F5F4FA
 }
 /*-----------------PORTFOLIO---------------*/
 
